@@ -54,7 +54,7 @@
       <properties class="hudson.model.View$PropertyList"/>
       <jobNames>
         <comparator class="hudson.util.CaseInsensitiveComparator"/>
-        <string>SmartRegisterTest</string>
+        <string>SmartRegister</string>
       </jobNames>
       <jobFilters/>
       <columns/>
