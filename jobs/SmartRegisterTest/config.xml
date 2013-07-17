@@ -90,7 +90,7 @@
       <testDataPublishers/>
     </hudson.tasks.junit.JUnitResultArchiver>
     <hudson.tasks.BuildTrigger>
-      <childProjects>SmartRegister</childProjects>
+      <childProjects>SmartRegister, SmartRegisterClang</childProjects>
       <threshold>
         <name>SUCCESS</name>
         <ordinal>0</ordinal>

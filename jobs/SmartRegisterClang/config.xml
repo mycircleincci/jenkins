@@ -52,42 +52,18 @@
   <triggers/>
   <concurrentBuild>false</concurrentBuild>
   <builders>
-    <au.com.rayh.XCodeBuilder plugin="xcode-plugin@1.3.3">
-      <cleanBeforeBuild>true</cleanBeforeBuild>
-      <cleanTestReports>false</cleanTestReports>
-      <configuration>Release</configuration>
+    <jenkins.plugins.clangscanbuild.ClangScanBuildBuilder plugin="clang-scanbuild-plugin@1.4">
       <target>SmartRegister</target>
-      <sdk></sdk>
-      <symRoot></symRoot>
-      <configurationBuildDir></configurationBuildDir>
-      <xcodeProjectPath></xcodeProjectPath>
-      <xcodeProjectFile></xcodeProjectFile>
-      <xcodebuildArguments></xcodebuildArguments>
-      <xcodeSchema></xcodeSchema>
-      <xcodeWorkspaceFile></xcodeWorkspaceFile>
-      <embeddedProfileFile></embeddedProfileFile>
-      <cfBundleVersionValue></cfBundleVersionValue>
-      <cfBundleShortVersionStringValue></cfBundleShortVersionStringValue>
-      <buildIpa>true</buildIpa>
-      <unlockKeychain>false</unlockKeychain>
-      <keychainPath>${HOME}/Library/Keychains/login.keychain</keychainPath>
-      <keychainPwd></keychainPwd>
-      <codeSigningIdentity></codeSigningIdentity>
-    </au.com.rayh.XCodeBuilder>
+      <targetSdk>iphonesimulator</targetSdk>
+      <config>Debug</config>
+      <clangInstallationName>Clang-current</clangInstallationName>
+    </jenkins.plugins.clangscanbuild.ClangScanBuildBuilder>
   </builders>
   <publishers>
-    <testflight.TestflightRecorder plugin="testflight@1.3.8">
-      <tokenPairName>MyCircle</tokenPairName>
-      <notifyTeam>false</notifyTeam>
-      <buildNotes></buildNotes>
-      <appendChangelog>false</appendChangelog>
-      <filePath></filePath>
-      <dsymPath></dsymPath>
-      <lists></lists>
-      <replace>false</replace>
-      <proxyPort>0</proxyPort>
-      <debug>false</debug>
-    </testflight.TestflightRecorder>
+    <jenkins.plugins.clangscanbuild.publisher.ClangScanBuildPublisher plugin="clang-scanbuild-plugin@1.4">
+      <bugThreshold>0</bugThreshold>
+      <markBuildUnstableWhenThresholdIsExceeded>true</markBuildUnstableWhenThresholdIsExceeded>
+    </jenkins.plugins.clangscanbuild.publisher.ClangScanBuildPublisher>
   </publishers>
   <buildWrappers/>
 </project>
