@@ -1,0 +1,20 @@
+Changes in branch origin/master, between 9a55b23f4ad9ec2fdb527887b0380c834417781e and 7ff64e538ce961fda9b38afdcf49089107f6b4cd
+commit 7ff64e538ce961fda9b38afdcf49089107f6b4cd
+tree 25aedc01c0b0933569fef0bc3bed1e9a52080f76
+parent 9a55b23f4ad9ec2fdb527887b0380c834417781e
+author Oli <oliver.dainton@gmail.com> 1374065153 +0100
+committer Oli <oliver.dainton@gmail.com> 1374065153 +0100
+
+    deliberately failing test for jenkins
+
+:100644 100644 0cd69fee4b8988cc903a45654b2a433202da9cfd 0cba689132c6da92fcee4e36436ba2c9fc574c7b M	SmartRegisterTests/BasketTests.m
+Changes in branch origin/HEAD, between 9a55b23f4ad9ec2fdb527887b0380c834417781e and 7ff64e538ce961fda9b38afdcf49089107f6b4cd
+commit 7ff64e538ce961fda9b38afdcf49089107f6b4cd
+tree 25aedc01c0b0933569fef0bc3bed1e9a52080f76
+parent 9a55b23f4ad9ec2fdb527887b0380c834417781e
+author Oli <oliver.dainton@gmail.com> 1374065153 +0100
+committer Oli <oliver.dainton@gmail.com> 1374065153 +0100
+
+    deliberately failing test for jenkins
+
+:100644 100644 0cd69fee4b8988cc903a45654b2a433202da9cfd 0cba689132c6da92fcee4e36436ba2c9fc574c7b M	SmartRegisterTests/BasketTests.m

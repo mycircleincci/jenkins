@@ -1,0 +1,30 @@
+Changes in branch origin/master, between 81ed009a100813c23a7b7de219a265d4a115e28b and 9a55b23f4ad9ec2fdb527887b0380c834417781e
+commit 9a55b23f4ad9ec2fdb527887b0380c834417781e
+tree 30f34574f9dd28640746e28ea32dfd3400f8d8f9
+parent 81ed009a100813c23a7b7de219a265d4a115e28b
+author Oli <oliver.dainton@gmail.com> 1374064645 +0100
+committer Oli <oliver.dainton@gmail.com> 1374064645 +0100
+
+    Created BasketCell
+    Added tests for basketItem injection into basketCell
+
+:100644 100644 a28bf0f83a6d8135b1989cbf4c974f7eaa2182d9 d4175bb77698fb8d8f66dd635789512ffc19cb64 M	SmartRegister.xcodeproj/project.pbxproj
+:000000 100644 0000000000000000000000000000000000000000 a4a0e8ec3ce295365d70271a58758e626b618129 A	SmartRegister/Classes/Cells/MCBasketCell.h
+:000000 100644 0000000000000000000000000000000000000000 db3014d08e4ae944fbf8a7573ddcf746a1baddcb A	SmartRegister/Classes/Cells/MCBasketCell.m
+:100644 100644 c4f8365107c85f1812efb196fa8a20ab665ba069 65a0ad98b7ba5637d6b54b72d0da619253bf4050 M	SmartRegister/Classes/Model/MCBasket.m
+:100644 100644 b10f8744bbd16843e706bdeb761654d61f5f020d 0cd69fee4b8988cc903a45654b2a433202da9cfd M	SmartRegisterTests/BasketTests.m
+Changes in branch origin/HEAD, between 81ed009a100813c23a7b7de219a265d4a115e28b and 9a55b23f4ad9ec2fdb527887b0380c834417781e
+commit 9a55b23f4ad9ec2fdb527887b0380c834417781e
+tree 30f34574f9dd28640746e28ea32dfd3400f8d8f9
+parent 81ed009a100813c23a7b7de219a265d4a115e28b
+author Oli <oliver.dainton@gmail.com> 1374064645 +0100
+committer Oli <oliver.dainton@gmail.com> 1374064645 +0100
+
+    Created BasketCell
+    Added tests for basketItem injection into basketCell
+
+:100644 100644 a28bf0f83a6d8135b1989cbf4c974f7eaa2182d9 d4175bb77698fb8d8f66dd635789512ffc19cb64 M	SmartRegister.xcodeproj/project.pbxproj
+:000000 100644 0000000000000000000000000000000000000000 a4a0e8ec3ce295365d70271a58758e626b618129 A	SmartRegister/Classes/Cells/MCBasketCell.h
+:000000 100644 0000000000000000000000000000000000000000 db3014d08e4ae944fbf8a7573ddcf746a1baddcb A	SmartRegister/Classes/Cells/MCBasketCell.m
+:100644 100644 c4f8365107c85f1812efb196fa8a20ab665ba069 65a0ad98b7ba5637d6b54b72d0da619253bf4050 M	SmartRegister/Classes/Model/MCBasket.m
+:100644 100644 b10f8744bbd16843e706bdeb761654d61f5f020d 0cd69fee4b8988cc903a45654b2a433202da9cfd M	SmartRegisterTests/BasketTests.m
