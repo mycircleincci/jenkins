@@ -48,7 +48,7 @@
     </hudson.model.AllView>
     <com.smartcodeltd.jenkinsci.plugins.buildmonitor.BuildMonitorView plugin="build-monitor-plugin@1.0+build.10">
       <owner class="hudson" reference="../../.."/>
-      <name>MyCircle</name>
+      <name>myCircle</name>
       <filterExecutors>false</filterExecutors>
       <filterQueue>false</filterQueue>
       <properties class="hudson.model.View$PropertyList"/>
