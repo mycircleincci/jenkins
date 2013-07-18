@@ -1,0 +1,24 @@
+Changes in branch origin/master, between e5236a1f042894a1328d13eb3650c52ffb5be9c1 and 3a2118ea7e87f9109d784e587970d774580a4edb
+commit 3a2118ea7e87f9109d784e587970d774580a4edb
+tree 4826da343fc3a45e83479cc02f8a702ae35be117
+parent e5236a1f042894a1328d13eb3650c52ffb5be9c1
+author Oli <oliver.dainton@gmail.com> 1374081015 +0100
+committer Oli <oliver.dainton@gmail.com> 1374081015 +0100
+
+    Added further tests to basket view controller
+
+:100644 100644 0393addf80ed4548203f5c38bf92f1226306a604 f87693a4511299bb500e1bc482850d2dd16a96a4 M	SmartRegister/Classes/ViewControllers/MCBasketViewController.h
+:100644 100644 74f558c767b7623f306a3f90fd7ca8bfb38bc538 be8e88b8d4d788e6d600a12f0e92292240fd6c66 M	SmartRegister/Classes/ViewControllers/MCBasketViewController.m
+:100644 100644 48f13bc4ebbedb30f99c14dcbba5fb7161bc6eaa 5da3d551495d8dc93577c2b30c743a3175d60c94 M	SmartRegisterTests/BasketViewControllerTests.m
+Changes in branch origin/HEAD, between e5236a1f042894a1328d13eb3650c52ffb5be9c1 and 3a2118ea7e87f9109d784e587970d774580a4edb
+commit 3a2118ea7e87f9109d784e587970d774580a4edb
+tree 4826da343fc3a45e83479cc02f8a702ae35be117
+parent e5236a1f042894a1328d13eb3650c52ffb5be9c1
+author Oli <oliver.dainton@gmail.com> 1374081015 +0100
+committer Oli <oliver.dainton@gmail.com> 1374081015 +0100
+
+    Added further tests to basket view controller
+
+:100644 100644 0393addf80ed4548203f5c38bf92f1226306a604 f87693a4511299bb500e1bc482850d2dd16a96a4 M	SmartRegister/Classes/ViewControllers/MCBasketViewController.h
+:100644 100644 74f558c767b7623f306a3f90fd7ca8bfb38bc538 be8e88b8d4d788e6d600a12f0e92292240fd6c66 M	SmartRegister/Classes/ViewControllers/MCBasketViewController.m
+:100644 100644 48f13bc4ebbedb30f99c14dcbba5fb7161bc6eaa 5da3d551495d8dc93577c2b30c743a3175d60c94 M	SmartRegisterTests/BasketViewControllerTests.m

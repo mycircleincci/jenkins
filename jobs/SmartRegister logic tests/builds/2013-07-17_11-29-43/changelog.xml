@@ -1,0 +1,44 @@
+Changes in branch origin/master, between 49a7cb0364c71eccaf9663ce3430eb7f2304504d and b23702d6a5f5560c006de5dc18b09c169e13b8c8
+commit b23702d6a5f5560c006de5dc18b09c169e13b8c8
+tree 7736cbf81785b312b38987b2fb5de1187e659baf
+parent f973061610ce8354a0efb79db2375ad69e021b6d
+author Oli <oliver.dainton@gmail.com> 1374056735 +0100
+committer Oli <oliver.dainton@gmail.com> 1374056735 +0100
+
+    Added further initial tests for MCBasket
+
+:100644 100644 d4813b746d03ddf215e3facddd96bd2c89178889 9d08e43a4dc01b6dceedca0c5e5dd146671cd0a4 M	SmartRegister/Classes/Model/MCBasket.h
+:100644 100644 eed331ca9d3b6d5eada5313647151bc63dfd4c8d 0d55b9f315c8c3848b8efa9d7ea673dab5146c40 M	SmartRegister/Classes/Model/MCBasket.m
+:100644 100644 4198f869e141ee1602c69ad19d823c95d499e91d e4ae4f7f81bb05fb9777f494251e285660f16881 M	SmartRegisterTests/BasketTest.m
+
+commit f973061610ce8354a0efb79db2375ad69e021b6d
+tree 8f667465d1c09aaa1578c993c5dca09e464bc02b
+parent 49a7cb0364c71eccaf9663ce3430eb7f2304504d
+author Oli <oliver.dainton@gmail.com> 1374056562 +0100
+committer Oli <oliver.dainton@gmail.com> 1374056562 +0100
+
+    Changed unit tests to logic tests
+
+:100644 100644 dbaa79219892f9f90cdc70258a039cf23ac83b07 a2932ed87e104f03e8db4ffd6232744a0db0f923 M	SmartRegister.xcodeproj/project.pbxproj
+Changes in branch origin/HEAD, between 49a7cb0364c71eccaf9663ce3430eb7f2304504d and b23702d6a5f5560c006de5dc18b09c169e13b8c8
+commit b23702d6a5f5560c006de5dc18b09c169e13b8c8
+tree 7736cbf81785b312b38987b2fb5de1187e659baf
+parent f973061610ce8354a0efb79db2375ad69e021b6d
+author Oli <oliver.dainton@gmail.com> 1374056735 +0100
+committer Oli <oliver.dainton@gmail.com> 1374056735 +0100
+
+    Added further initial tests for MCBasket
+
+:100644 100644 d4813b746d03ddf215e3facddd96bd2c89178889 9d08e43a4dc01b6dceedca0c5e5dd146671cd0a4 M	SmartRegister/Classes/Model/MCBasket.h
+:100644 100644 eed331ca9d3b6d5eada5313647151bc63dfd4c8d 0d55b9f315c8c3848b8efa9d7ea673dab5146c40 M	SmartRegister/Classes/Model/MCBasket.m
+:100644 100644 4198f869e141ee1602c69ad19d823c95d499e91d e4ae4f7f81bb05fb9777f494251e285660f16881 M	SmartRegisterTests/BasketTest.m
+
+commit f973061610ce8354a0efb79db2375ad69e021b6d
+tree 8f667465d1c09aaa1578c993c5dca09e464bc02b
+parent 49a7cb0364c71eccaf9663ce3430eb7f2304504d
+author Oli <oliver.dainton@gmail.com> 1374056562 +0100
+committer Oli <oliver.dainton@gmail.com> 1374056562 +0100
+
+    Changed unit tests to logic tests
+
+:100644 100644 dbaa79219892f9f90cdc70258a039cf23ac83b07 a2932ed87e104f03e8db4ffd6232744a0db0f923 M	SmartRegister.xcodeproj/project.pbxproj

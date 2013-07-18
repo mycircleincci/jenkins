@@ -1,0 +1,56 @@
+Changes in branch origin/master, between 924455c0466808edb9e993706589e995bfc3a3f1 and 5565df903c7777d28b587edc3db76ec7117663ed
+commit 5565df903c7777d28b587edc3db76ec7117663ed
+tree 967759866191d2588ee5da9c421e3fe7bca0bb07
+parent 924455c0466808edb9e993706589e995bfc3a3f1
+author Oli <oliver.dainton@gmail.com> 1374074410 +0100
+committer Oli <oliver.dainton@gmail.com> 1374074410 +0100
+
+    Added testbed around basket
+    Further test around basket
+    Added logic to basketitem to remove self from basket
+    Added logic to cell to act on delete button
+    Added BasketDelegate to allow comms to vc
+
+:100644 100644 d4175bb77698fb8d8f66dd635789512ffc19cb64 f21ec2399ec4632d44c0d9a1277f55dd2261f7c2 M	SmartRegister.xcodeproj/project.pbxproj
+:000000 100644 0000000000000000000000000000000000000000 05301bc253830381195ba116901612a8e115bfa7 A	SmartRegister.xcodeproj/xcuserdata/Oli.xcuserdatad/xcdebugger/Breakpoints.xcbkptlist
+:100644 100644 a4a0e8ec3ce295365d70271a58758e626b618129 49b64c7b3ff9970bd7f014861ae2106bb9afe7e3 M	SmartRegister/Classes/Cells/MCBasketCell.h
+:100644 100644 db3014d08e4ae944fbf8a7573ddcf746a1baddcb 957ab749c6496dcaca04a1feb8288b370aacaf4f M	SmartRegister/Classes/Cells/MCBasketCell.m
+:100644 100644 6a2bcff723db70afa6cd95a712603bb77636209f e5a11c28b270e9a394594acf3be2afa0cc89b54d M	SmartRegister/Classes/MCViewController.m
+:100644 100644 deec4e1a42ad140228648d3482ecfebc681e4ba9 c625d03bbc9a83bdd3832030fbbd439af1f4c6e8 M	SmartRegister/Classes/Model/MCBasket.h
+:100644 100644 65a0ad98b7ba5637d6b54b72d0da619253bf4050 5ef69196d1dc17d8fa8b4567a7c8db8d647da6f8 M	SmartRegister/Classes/Model/MCBasket.m
+:100644 100644 840bc8e0ca7316a126da2d5f2360d1698b30387e 1c86261297a0d3cbe9ba4093830802c10e8f5437 M	SmartRegister/Classes/Model/MCBasketItem.h
+:100644 100644 c2b7a596988e72517e5ec2c8e1079d642607dfdc 38b2981274aea8e2b4958c47fd0ec1333035656c M	SmartRegister/Classes/Model/MCBasketItem.m
+:000000 100644 0000000000000000000000000000000000000000 0393addf80ed4548203f5c38bf92f1226306a604 A	SmartRegister/Classes/ViewControllers/MCBasketViewController.h
+:000000 100644 0000000000000000000000000000000000000000 5ee40f0ae2d8b19ec4cc97e31fa4b722bd9271aa A	SmartRegister/Classes/ViewControllers/MCBasketViewController.m
+:100644 100644 418a26040422265c1371617d790121c36eb9ed33 e45e2f3475261cc8184a7fa4cf270395d42e4e86 M	SmartRegister/UI/Interface/MainStoryboard.storyboard
+:100644 100644 61c802f87be76e164078b70cc7a0dc3035a817ed fda6d4a4dd3e9192c6e51b285bdffbd57c01161f M	SmartRegisterTests/BasketItemTests.m
+:100644 100644 0cd69fee4b8988cc903a45654b2a433202da9cfd 009e720b75208c464cd5255c1668bd0be90e0188 M	SmartRegisterTests/BasketTests.m
+:000000 100644 0000000000000000000000000000000000000000 48f13bc4ebbedb30f99c14dcbba5fb7161bc6eaa A	SmartRegisterTests/BasketViewControllerTests.m
+Changes in branch origin/HEAD, between 924455c0466808edb9e993706589e995bfc3a3f1 and 5565df903c7777d28b587edc3db76ec7117663ed
+commit 5565df903c7777d28b587edc3db76ec7117663ed
+tree 967759866191d2588ee5da9c421e3fe7bca0bb07
+parent 924455c0466808edb9e993706589e995bfc3a3f1
+author Oli <oliver.dainton@gmail.com> 1374074410 +0100
+committer Oli <oliver.dainton@gmail.com> 1374074410 +0100
+
+    Added testbed around basket
+    Further test around basket
+    Added logic to basketitem to remove self from basket
+    Added logic to cell to act on delete button
+    Added BasketDelegate to allow comms to vc
+
+:100644 100644 d4175bb77698fb8d8f66dd635789512ffc19cb64 f21ec2399ec4632d44c0d9a1277f55dd2261f7c2 M	SmartRegister.xcodeproj/project.pbxproj
+:000000 100644 0000000000000000000000000000000000000000 05301bc253830381195ba116901612a8e115bfa7 A	SmartRegister.xcodeproj/xcuserdata/Oli.xcuserdatad/xcdebugger/Breakpoints.xcbkptlist
+:100644 100644 a4a0e8ec3ce295365d70271a58758e626b618129 49b64c7b3ff9970bd7f014861ae2106bb9afe7e3 M	SmartRegister/Classes/Cells/MCBasketCell.h
+:100644 100644 db3014d08e4ae944fbf8a7573ddcf746a1baddcb 957ab749c6496dcaca04a1feb8288b370aacaf4f M	SmartRegister/Classes/Cells/MCBasketCell.m
+:100644 100644 6a2bcff723db70afa6cd95a712603bb77636209f e5a11c28b270e9a394594acf3be2afa0cc89b54d M	SmartRegister/Classes/MCViewController.m
+:100644 100644 deec4e1a42ad140228648d3482ecfebc681e4ba9 c625d03bbc9a83bdd3832030fbbd439af1f4c6e8 M	SmartRegister/Classes/Model/MCBasket.h
+:100644 100644 65a0ad98b7ba5637d6b54b72d0da619253bf4050 5ef69196d1dc17d8fa8b4567a7c8db8d647da6f8 M	SmartRegister/Classes/Model/MCBasket.m
+:100644 100644 840bc8e0ca7316a126da2d5f2360d1698b30387e 1c86261297a0d3cbe9ba4093830802c10e8f5437 M	SmartRegister/Classes/Model/MCBasketItem.h
+:100644 100644 c2b7a596988e72517e5ec2c8e1079d642607dfdc 38b2981274aea8e2b4958c47fd0ec1333035656c M	SmartRegister/Classes/Model/MCBasketItem.m
+:000000 100644 0000000000000000000000000000000000000000 0393addf80ed4548203f5c38bf92f1226306a604 A	SmartRegister/Classes/ViewControllers/MCBasketViewController.h
+:000000 100644 0000000000000000000000000000000000000000 5ee40f0ae2d8b19ec4cc97e31fa4b722bd9271aa A	SmartRegister/Classes/ViewControllers/MCBasketViewController.m
+:100644 100644 418a26040422265c1371617d790121c36eb9ed33 e45e2f3475261cc8184a7fa4cf270395d42e4e86 M	SmartRegister/UI/Interface/MainStoryboard.storyboard
+:100644 100644 61c802f87be76e164078b70cc7a0dc3035a817ed fda6d4a4dd3e9192c6e51b285bdffbd57c01161f M	SmartRegisterTests/BasketItemTests.m
+:100644 100644 0cd69fee4b8988cc903a45654b2a433202da9cfd 009e720b75208c464cd5255c1668bd0be90e0188 M	SmartRegisterTests/BasketTests.m
+:000000 100644 0000000000000000000000000000000000000000 48f13bc4ebbedb30f99c14dcbba5fb7161bc6eaa A	SmartRegisterTests/BasketViewControllerTests.m
