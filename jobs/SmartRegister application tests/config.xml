@@ -59,11 +59,7 @@
     </hudson.triggers.SCMTrigger>
   </triggers>
   <concurrentBuild>false</concurrentBuild>
-  <builders>
-    <hudson.tasks.Shell>
-      <command>xctool -project SmartRegister.xcodeproj -scheme SmartRegister test -sdk iphonesimulator6.1 ONLY_ACTIVE_ARCH=NO</command>
-    </hudson.tasks.Shell>
-  </builders>
+  <builders/>
   <publishers>
     <hudson.tasks.junit.JUnitResultArchiver>
       <testResults>test-reports/*.xml</testResults>
