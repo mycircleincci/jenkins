@@ -55,7 +55,7 @@
       <jobNames>
         <comparator class="hudson.util.CaseInsensitiveComparator"/>
         <string>SmartRegister</string>
-        <string>SmartRegisterClang</string>
+        <string>SmartRegister static analysis</string>
         <string>SmartRegisterTests</string>
       </jobNames>
       <jobFilters/>
