@@ -61,7 +61,7 @@
   <concurrentBuild>false</concurrentBuild>
   <builders>
     <hudson.tasks.Shell>
-      <command>xctool -project SmartRegister.xcodeproj -scheme SmartRegister test -only SMartRegisterTests -test-sdk iphonesimulator6.1</command>
+      <command>xctool -project SmartRegister.xcodeproj -scheme SmartRegister test -only SmartRegisterTests -test-sdk iphonesimulator6.1</command>
     </hudson.tasks.Shell>
   </builders>
   <publishers>
