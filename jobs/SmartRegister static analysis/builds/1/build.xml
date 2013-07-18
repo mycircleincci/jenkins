@@ -1,0 +1,90 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<build>
+  <actions>
+    <hudson.model.CauseAction>
+      <causes>
+        <hudson.model.Cause_-UserIdCause>
+          <userId>rob</userId>
+        </hudson.model.Cause_-UserIdCause>
+      </causes>
+    </hudson.model.CauseAction>
+    <hudson.plugins.git.util.BuildData plugin="git@1.4.0">
+      <buildsByBranchName>
+        <entry>
+          <string>origin/master</string>
+          <hudson.plugins.git.util.Build>
+            <revision plugin="git-client@1.0.7">
+              <sha1>5565df903c7777d28b587edc3db76ec7117663ed</sha1>
+              <branches class="list">
+                <hudson.plugins.git.Branch>
+                  <sha1 reference="../../../sha1"/>
+                  <name>origin/master</name>
+                </hudson.plugins.git.Branch>
+                <hudson.plugins.git.Branch>
+                  <sha1 reference="../../../sha1"/>
+                  <name>origin/HEAD</name>
+                </hudson.plugins.git.Branch>
+              </branches>
+            </revision>
+            <hudsonBuildNumber>1</hudsonBuildNumber>
+          </hudson.plugins.git.util.Build>
+        </entry>
+        <entry>
+          <string>origin/HEAD</string>
+          <hudson.plugins.git.util.Build reference="../../entry/hudson.plugins.git.util.Build"/>
+        </entry>
+      </buildsByBranchName>
+      <lastBuild reference="../buildsByBranchName/entry/hudson.plugins.git.util.Build"/>
+      <scmName></scmName>
+      <remoteUrls>
+        <string>https://github.com/mycircleincci/SmartRegister.git</string>
+      </remoteUrls>
+    </hudson.plugins.git.util.BuildData>
+    <hudson.plugins.git.GitTagAction plugin="git@1.4.0">
+      <build class="build" reference="../../.."/>
+      <tags class="hudson.util.CopyOnWriteMap$Tree">
+        <entry>
+          <string>origin/HEAD</string>
+          <list/>
+        </entry>
+        <entry>
+          <string>origin/master</string>
+          <list/>
+        </entry>
+      </tags>
+      <ws>/Users/Shared/Jenkins/Home/workspace/SmartRegisterClang</ws>
+    </hudson.plugins.git.GitTagAction>
+    <hudson.scm.SCMRevisionState_-None/>
+    <jenkins.plugins.clangscanbuild.actions.ClangScanBuildAction plugin="clang-scanbuild-plugin@1.4">
+      <bugThreshold>0</bugThreshold>
+      <bugSummaryXML serialization="custom">
+        <hudson.FilePath>
+          <default>
+            <remote>/Users/Shared/Jenkins/Home/jobs/SmartRegisterClang/builds/2013-07-17_17-24-58/bugSummary.xml</remote>
+          </default>
+          <boolean>true</boolean>
+        </hudson.FilePath>
+      </bugSummaryXML>
+      <markBuildUnstable>true</markBuildUnstable>
+      <bugCount>0</bugCount>
+      <build class="build" reference="../../.."/>
+      <APPROVED__REPORT__REQUEST__PATTERN>
+        <pattern>[^.\\/]*\.html</pattern>
+        <flags>0</flags>
+      </APPROVED__REPORT__REQUEST__PATTERN>
+    </jenkins.plugins.clangscanbuild.actions.ClangScanBuildAction>
+  </actions>
+  <number>1</number>
+  <startTime>1374078298074</startTime>
+  <result>SUCCESS</result>
+  <duration>10568</duration>
+  <charset>US-ASCII</charset>
+  <keepLog>false</keepLog>
+  <builtOn></builtOn>
+  <workspace>/Users/Shared/Jenkins/Home/workspace/SmartRegisterClang</workspace>
+  <hudsonVersion>1.523</hudsonVersion>
+  <scm class="hudson.plugins.git.GitChangeLogParser" plugin="git@1.4.0">
+    <authorOrCommitter>false</authorOrCommitter>
+  </scm>
+  <culprits class="com.google.common.collect.EmptyImmutableSortedSet"/>
+</build>
