@@ -65,7 +65,7 @@
 #this is required after a system restart
 #so the simulator knows to run iPad rather than iPhone apps
 echo &quot;Opening iphone simulator&quot;
-open &quot;/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Applications/iPhone Simulator.app&quot;
+open -F &quot;/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Applications/iPhone Simulator.app&quot;
 sleep 10
 killall &apos;iPhone Simulator&apos;
 echo &quot;iphone simulator killed&quot;
