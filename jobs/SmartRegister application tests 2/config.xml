@@ -63,7 +63,7 @@
     <hudson.tasks.Shell>
       <command># Running under xcodebuild, so use ios-sim 
 killall -m -KILL &quot;iPhone Simulator&quot; || true
-our_test_bundle_path=$BUILT_PRODUCTS_DIR/$PRODUCT_NAME.$WRAPPER_EXTENSION
+our_test_bundle_path=$WORKSPACE/$BUILT_PRODUCTS_DIR/$PRODUCT_NAME.$WRAPPER_EXTENSION
 our_env=(&quot;--setenv&quot; &quot;DYLD_INSERT_LIBRARIES=/../../Library/PrivateFrameworks/IDEBundleInjection.framework/IDEBundleInjection&quot;)
 our_env=(&quot;${our_env[@]}&quot; &quot;--setenv&quot; &quot;XCInjectBundle=${our_test_bundle_path}&quot;)
 our_env=(&quot;${our_env[@]}&quot; &quot;--setenv&quot; &quot;XCInjectBundleInto=${TEST_HOST}&quot;)
