@@ -61,19 +61,16 @@
   <concurrentBuild>false</concurrentBuild>
   <builders>
     <hudson.tasks.Shell>
-      <command>#open the iphonesimulator and kill it
-#this is required after a system restart
-#so the simulator knows to run iPad rather than iPhone apps
-echo &quot;Opening iphone simulator&quot;
-open -F &quot;/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Applications/iPhone Simulator.app&quot;
-sleep 10
-killall &apos;iPhone Simulator&apos;
-echo &quot;iphone simulator killed&quot;
-
-#delete previous build folders
-echo &quot;Removing previous build folder&quot;
-rm -r ${WORKSPACE}/build
-mkdir ${WORKSPACE}/build</command>
+      <command># Running under xcodebuild, so use ios-sim 
+killall -m -KILL &quot;iPhone Simulator&quot; || true
+our_test_bundle_path=$BUILT_PRODUCTS_DIR/$PRODUCT_NAME.$WRAPPER_EXTENSION
+our_env=(&quot;--setenv&quot; &quot;DYLD_INSERT_LIBRARIES=/../../Library/PrivateFrameworks/IDEBundleInjection.framework/IDEBundleInjection&quot;)
+our_env=(&quot;${our_env[@]}&quot; &quot;--setenv&quot; &quot;XCInjectBundle=${our_test_bundle_path}&quot;)
+our_env=(&quot;${our_env[@]}&quot; &quot;--setenv&quot; &quot;XCInjectBundleInto=${TEST_HOST}&quot;)
+our_app_location=&quot;$(dirname &quot;${TEST_HOST}&quot;)&quot;
+/usr/local/bin/ios-sim launch &quot;${our_app_location}&quot; &quot;${our_env[@]}&quot; --args -SenTest All &quot;${our_test_bundle_path}&quot; --exit
+killall -m -KILL &quot;iPhone Simulator&quot; || true
+exit 0</command>
     </hudson.tasks.Shell>
     <au.com.rayh.XCodeBuilder plugin="xcode-plugin@1.3.3">
       <cleanBeforeBuild>true</cleanBeforeBuild>
