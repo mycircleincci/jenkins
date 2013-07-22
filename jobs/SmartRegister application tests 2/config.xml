@@ -61,10 +61,7 @@
   <concurrentBuild>false</concurrentBuild>
   <builders>
     <hudson.tasks.Shell>
-      <command>#reset the content and settings of the iphone sim
-rm -r ~/Library/Application\ Support/iPhone\ Simulator/
-
-#open the iphonesimulator and kill it
+      <command>#open the iphonesimulator and kill it
 #this is required after a system restart
 #so the simulator knows to run iPad rather than iPhone apps
 echo &quot;Opening iphone simulator&quot;
