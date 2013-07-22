@@ -62,7 +62,7 @@
   <builders>
     <au.com.rayh.XCodeBuilder plugin="xcode-plugin@1.3.3">
       <cleanBeforeBuild>true</cleanBeforeBuild>
-      <cleanTestReports>false</cleanTestReports>
+      <cleanTestReports>true</cleanTestReports>
       <configuration>Debug</configuration>
       <target>SmartRegisterTests</target>
       <sdk>iphonesimulator</sdk>
@@ -70,7 +70,7 @@
       <configurationBuildDir></configurationBuildDir>
       <xcodeProjectPath></xcodeProjectPath>
       <xcodeProjectFile></xcodeProjectFile>
-      <xcodebuildArguments>SL_RUN_UNIT_TESTS=YES TEST_AFTER_BUILD=YES</xcodebuildArguments>
+      <xcodebuildArguments>ARCHS=i386 ONLY_ACTIVE_ARCH=NO VALID_ARCHS=i386 SL_RUN_UNIT_TESTS=YES TEST_AFTER_BUILD=YES</xcodebuildArguments>
       <xcodeSchema></xcodeSchema>
       <xcodeWorkspaceFile></xcodeWorkspaceFile>
       <embeddedProfileFile></embeddedProfileFile>
@@ -79,7 +79,7 @@
       <buildIpa>false</buildIpa>
       <unlockKeychain>false</unlockKeychain>
       <keychainPath>${HOME}/Library/Keychains/login.keychain</keychainPath>
-      <keychainPwd></keychainPwd>
+      <keychainPwd>C1rkl3!!</keychainPwd>
       <codeSigningIdentity></codeSigningIdentity>
     </au.com.rayh.XCodeBuilder>
   </builders>
