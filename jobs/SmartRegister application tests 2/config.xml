@@ -60,6 +60,24 @@
   </triggers>
   <concurrentBuild>false</concurrentBuild>
   <builders>
+    <hudson.tasks.Shell>
+      <command>#reset the content and settings of the iphone sim
+rm -r ~/Library/Application\ Support/iPhone\ Simulator/
+
+#open the iphonesimulator and kill it
+#this is required after a system restart
+#so the simulator knows to run iPad rather than iPhone apps
+echo &quot;Opening iphone simulator&quot;
+open &quot;/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Applications/iPhone Simulator.app&quot;
+sleep 10
+killall &apos;iPhone Simulator&apos;
+echo &quot;iphone simulator killed&quot;
+
+#delete previous build folders
+echo &quot;Removing previous build folder&quot;
+rm -r ${WORKSPACE}/build
+mkdir ${WORKSPACE}/build</command>
+    </hudson.tasks.Shell>
     <au.com.rayh.XCodeBuilder plugin="xcode-plugin@1.3.3">
       <cleanBeforeBuild>true</cleanBeforeBuild>
       <cleanTestReports>true</cleanTestReports>
