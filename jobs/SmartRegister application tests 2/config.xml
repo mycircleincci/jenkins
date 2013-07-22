@@ -117,9 +117,6 @@ mkdir ${WORKSPACE}/build</command>
     <hudson.plugins.locksandlatches.LockWrapper plugin="locks-and-latches@0.6">
       <locks>
         <hudson.plugins.locksandlatches.LockWrapper_-LockWaitConfig>
-          <name>(default)</name>
-        </hudson.plugins.locksandlatches.LockWrapper_-LockWaitConfig>
-        <hudson.plugins.locksandlatches.LockWrapper_-LockWaitConfig>
           <name>iOS-sim</name>
         </hudson.plugins.locksandlatches.LockWrapper_-LockWaitConfig>
       </locks>
