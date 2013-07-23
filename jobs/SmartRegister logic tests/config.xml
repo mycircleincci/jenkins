@@ -68,11 +68,11 @@
       <sdk>iphonesimulator</sdk>
       <symRoot></symRoot>
       <configurationBuildDir></configurationBuildDir>
-      <xcodeProjectPath></xcodeProjectPath>
-      <xcodeProjectFile></xcodeProjectFile>
+      <xcodeProjectPath>SmartRegister</xcodeProjectPath>
+      <xcodeProjectFile>SmartRegister.xcproject</xcodeProjectFile>
       <xcodebuildArguments>SL_RUN_UNIT_TESTS=YES TEST_AFTER_BUILD=YES</xcodebuildArguments>
       <xcodeSchema></xcodeSchema>
-      <xcodeWorkspaceFile></xcodeWorkspaceFile>
+      <xcodeWorkspaceFile>SmartRegister.xcworkspace</xcodeWorkspaceFile>
       <embeddedProfileFile></embeddedProfileFile>
       <cfBundleVersionValue></cfBundleVersionValue>
       <cfBundleShortVersionStringValue></cfBundleShortVersionStringValue>
