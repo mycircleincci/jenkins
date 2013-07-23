@@ -72,6 +72,7 @@ xcodebuild -sdk iphonesimulator \
            -scheme SmartRegister \
            -configuration Debug \
            SL_RUN_UNIT_TESTS=YES \
+           TEST_AFTER_BUILD=YES \
            ONLY_ACTIVE_ARCH=NO \
            clean build 2&gt;&amp;1</command>
     </hudson.tasks.Shell>
