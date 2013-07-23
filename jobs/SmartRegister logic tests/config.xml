@@ -64,9 +64,7 @@
       <command>#!/usr/bin/env bash
 source ~/.bash_profile
 
-bundle install
-bundle exec pod repo update
-bundle exec pod install
+pod install
 
 DEVELOPER_DIR=/Applications/Xcode.app/Contents/Developer
 xcodebuild -sdk iphonesimulator \
