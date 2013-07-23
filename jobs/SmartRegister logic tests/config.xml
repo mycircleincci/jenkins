@@ -64,14 +64,14 @@
       <cleanBeforeBuild>true</cleanBeforeBuild>
       <cleanTestReports>true</cleanTestReports>
       <configuration>Debug</configuration>
-      <target></target>
+      <target>SmartRegisterLogicTests</target>
       <sdk>iphonesimulator</sdk>
       <symRoot></symRoot>
       <configurationBuildDir></configurationBuildDir>
-      <xcodeProjectPath>SmartRegister</xcodeProjectPath>
-      <xcodeProjectFile>SmartRegister</xcodeProjectFile>
+      <xcodeProjectPath></xcodeProjectPath>
+      <xcodeProjectFile></xcodeProjectFile>
       <xcodebuildArguments>SL_RUN_UNIT_TESTS=YES TEST_AFTER_BUILD=YES</xcodebuildArguments>
-      <xcodeSchema>SmartRegisterLogicTests</xcodeSchema>
+      <xcodeSchema></xcodeSchema>
       <xcodeWorkspaceFile>SmartRegister</xcodeWorkspaceFile>
       <embeddedProfileFile></embeddedProfileFile>
       <cfBundleVersionValue></cfBundleVersionValue>
