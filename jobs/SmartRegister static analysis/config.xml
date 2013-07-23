@@ -53,10 +53,11 @@
   <concurrentBuild>false</concurrentBuild>
   <builders>
     <jenkins.plugins.clangscanbuild.ClangScanBuildBuilder plugin="clang-scanbuild-plugin@1.4">
-      <target>SmartRegister</target>
       <targetSdk>iphonesimulator</targetSdk>
       <config>Debug</config>
       <clangInstallationName>Clang-current</clangInstallationName>
+      <workspace>SmartRegister</workspace>
+      <scheme>SmartRegister</scheme>
     </jenkins.plugins.clangscanbuild.ClangScanBuildBuilder>
   </builders>
   <publishers>
