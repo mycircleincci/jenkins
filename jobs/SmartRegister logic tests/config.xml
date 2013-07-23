@@ -69,7 +69,7 @@ pod install
 DEVELOPER_DIR=/Applications/Xcode.app/Contents/Developer
 xcodebuild -sdk iphonesimulator \
            -workspace SmartRegister.xcworkspace \
-           -scheme SmartRegister \
+           -scheme SmartRegisterLogicTests \
            -configuration Debug \
            SL_RUN_UNIT_TESTS=YES \
            TEST_AFTER_BUILD=YES \
