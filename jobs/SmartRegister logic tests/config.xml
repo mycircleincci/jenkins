@@ -74,7 +74,7 @@ pod install</command>
       <configurationBuildDir></configurationBuildDir>
       <xcodeProjectPath></xcodeProjectPath>
       <xcodeProjectFile></xcodeProjectFile>
-      <xcodebuildArguments>SL_RUN_UNIT_TESTS=YES TEST_AFTER_BUILD=YES</xcodebuildArguments>
+      <xcodebuildArguments>SL_RUN_UNIT_TESTS=YES TEST_AFTER_BUILD=YES ONLY_ACTIVE_ARCH=NO</xcodebuildArguments>
       <xcodeSchema>SmartRegisterLogicTests</xcodeSchema>
       <xcodeWorkspaceFile>SmartRegister</xcodeWorkspaceFile>
       <embeddedProfileFile></embeddedProfileFile>
