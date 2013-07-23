@@ -69,12 +69,12 @@ pod install
 DEVELOPER_DIR=/Applications/Xcode.app/Contents/Developer
 xcodebuild -sdk iphonesimulator \
            -workspace SmartRegister.xcworkspace \
-           -scheme SmartRegister \
+           -scheme SmartRegisterLogicTests \
            -configuration Debug \
            SL_RUN_UNIT_TESTS=YES \
            TEST_AFTER_BUILD=YES \
            ONLY_ACTIVE_ARCH=NO \
-           clean build 2&gt;&amp;1</command>
+           clean build test 2&gt;&amp;1 | /usr/local/bin/ocunit2junit</command>
     </hudson.tasks.Shell>
   </builders>
   <publishers>
