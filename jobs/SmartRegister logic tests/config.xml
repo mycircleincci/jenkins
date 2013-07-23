@@ -68,7 +68,7 @@ pod install</command>
       <cleanBeforeBuild>true</cleanBeforeBuild>
       <cleanTestReports>true</cleanTestReports>
       <configuration>Debug</configuration>
-      <target></target>
+      <target>SmartRegisterLogicTests</target>
       <sdk>iphonesimulator</sdk>
       <symRoot></symRoot>
       <configurationBuildDir></configurationBuildDir>
@@ -88,6 +88,11 @@ pod install</command>
     </au.com.rayh.XCodeBuilder>
   </builders>
   <publishers>
+    <hudson.tasks.junit.JUnitResultArchiver>
+      <testResults>*/test-reports/*.xml</testResults>
+      <keepLongStdio>false</keepLongStdio>
+      <testDataPublishers/>
+    </hudson.tasks.junit.JUnitResultArchiver>
     <hudson.tasks.BuildTrigger>
       <childProjects>SmartRegister TestFlight deployment, SmartRegister static analysis</childProjects>
       <threshold>
