@@ -69,10 +69,10 @@
       <symRoot></symRoot>
       <configurationBuildDir></configurationBuildDir>
       <xcodeProjectPath>SmartRegister</xcodeProjectPath>
-      <xcodeProjectFile>SmartRegister.xcproject</xcodeProjectFile>
+      <xcodeProjectFile>SmartRegister</xcodeProjectFile>
       <xcodebuildArguments>SL_RUN_UNIT_TESTS=YES TEST_AFTER_BUILD=YES</xcodebuildArguments>
       <xcodeSchema></xcodeSchema>
-      <xcodeWorkspaceFile>SmartRegister.xcworkspace</xcodeWorkspaceFile>
+      <xcodeWorkspaceFile>SmartRegister</xcodeWorkspaceFile>
       <embeddedProfileFile></embeddedProfileFile>
       <cfBundleVersionValue></cfBundleVersionValue>
       <cfBundleShortVersionStringValue></cfBundleShortVersionStringValue>
