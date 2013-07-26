@@ -64,7 +64,7 @@
       <cleanBeforeBuild>true</cleanBeforeBuild>
       <cleanTestReports>false</cleanTestReports>
       <configuration>Debug</configuration>
-      <target>SmartRegisterApplicationTests</target>
+      <target></target>
       <sdk>iphonesimulator</sdk>
       <symRoot></symRoot>
       <configurationBuildDir></configurationBuildDir>
