@@ -72,7 +72,7 @@
       <xcodeProjectFile></xcodeProjectFile>
       <xcodebuildArguments>SL_RUN_UNIT_TESTS=YES TEST_AFTER_BUILD=YES</xcodebuildArguments>
       <xcodeSchema></xcodeSchema>
-      <xcodeWorkspaceFile>SmartRegister.xcworkspace</xcodeWorkspaceFile>
+      <xcodeWorkspaceFile>SmartRegister</xcodeWorkspaceFile>
       <embeddedProfileFile></embeddedProfileFile>
       <cfBundleVersionValue></cfBundleVersionValue>
       <cfBundleShortVersionStringValue></cfBundleShortVersionStringValue>
@@ -102,7 +102,7 @@
     <hudson.plugins.locksandlatches.LockWrapper plugin="locks-and-latches@0.6">
       <locks>
         <hudson.plugins.locksandlatches.LockWrapper_-LockWaitConfig>
-          <name>(default)</name>
+          <name>iOS-sim</name>
         </hudson.plugins.locksandlatches.LockWrapper_-LockWaitConfig>
         <hudson.plugins.locksandlatches.LockWrapper_-LockWaitConfig>
           <name>iOS-sim</name>
