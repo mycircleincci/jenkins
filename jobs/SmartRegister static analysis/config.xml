@@ -52,6 +52,9 @@
   <triggers/>
   <concurrentBuild>false</concurrentBuild>
   <builders>
+    <hudson.tasks.Shell>
+      <command>pod install</command>
+    </hudson.tasks.Shell>
     <jenkins.plugins.clangscanbuild.ClangScanBuildBuilder plugin="clang-scanbuild-plugin@1.4">
       <targetSdk>iphonesimulator</targetSdk>
       <config>Debug</config>
