@@ -58,6 +58,7 @@
       <clangInstallationName>Clang-current</clangInstallationName>
       <workspace>SmartRegister.xcworkspace</workspace>
       <scheme>SmartRegister</scheme>
+      <xcodebuildargs>ONLY_ACTIVE_ARCH=NO</xcodebuildargs>
     </jenkins.plugins.clangscanbuild.ClangScanBuildBuilder>
   </builders>
   <publishers>
