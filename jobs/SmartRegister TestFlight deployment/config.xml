@@ -70,14 +70,14 @@
       <cfBundleShortVersionStringValue></cfBundleShortVersionStringValue>
       <buildIpa>true</buildIpa>
       <unlockKeychain>true</unlockKeychain>
-      <keychainPath>${HOME}/Library/Keychains/login.keychain</keychainPath>
-      <keychainPwd></keychainPwd>
+      <keychainPath>/Users/ci/Library/Keychains/login.keychain</keychainPath>
+      <keychainPwd>C1rkl3!!</keychainPwd>
       <codeSigningIdentity></codeSigningIdentity>
     </au.com.rayh.XCodeBuilder>
   </builders>
   <publishers>
     <testflight.TestflightRecorder plugin="testflight@1.3.8">
-      <tokenPairName></tokenPairName>
+      <tokenPairName>MyCircle</tokenPairName>
       <notifyTeam>false</notifyTeam>
       <buildNotes></buildNotes>
       <appendChangelog>false</appendChangelog>
