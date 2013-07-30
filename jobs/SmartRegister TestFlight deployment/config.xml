@@ -70,8 +70,8 @@
       <cfBundleShortVersionStringValue></cfBundleShortVersionStringValue>
       <buildIpa>true</buildIpa>
       <unlockKeychain>true</unlockKeychain>
-      <keychainPath>/Users/ci/Library/Keychains/login.keychain</keychainPath>
-      <keychainPwd>C1rkl3!!</keychainPwd>
+      <keychainPath>/Library/Keychains/System.keychain</keychainPath>
+      <keychainPwd></keychainPwd>
       <codeSigningIdentity></codeSigningIdentity>
     </au.com.rayh.XCodeBuilder>
   </builders>
