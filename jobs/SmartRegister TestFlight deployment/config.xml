@@ -69,7 +69,7 @@
       <cfBundleVersionValue></cfBundleVersionValue>
       <cfBundleShortVersionStringValue></cfBundleShortVersionStringValue>
       <buildIpa>true</buildIpa>
-      <unlockKeychain>false</unlockKeychain>
+      <unlockKeychain>true</unlockKeychain>
       <keychainPath>${HOME}/Library/Keychains/login.keychain</keychainPath>
       <keychainPwd></keychainPwd>
       <codeSigningIdentity></codeSigningIdentity>
