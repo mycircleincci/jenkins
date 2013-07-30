@@ -56,7 +56,7 @@
       <targetSdk>iphonesimulator</targetSdk>
       <config>Debug</config>
       <clangInstallationName>Clang-current</clangInstallationName>
-      <workspace>SmartRegister</workspace>
+      <workspace>SmartRegister.xcworkspace</workspace>
       <scheme>SmartRegister</scheme>
     </jenkins.plugins.clangscanbuild.ClangScanBuildBuilder>
   </builders>
