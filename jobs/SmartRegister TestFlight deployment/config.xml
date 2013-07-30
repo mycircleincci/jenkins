@@ -71,7 +71,7 @@
       <buildIpa>true</buildIpa>
       <unlockKeychain>true</unlockKeychain>
       <keychainPath>${HOME}/Library/Keychains/login.keychain</keychainPath>
-      <keychainPwd></keychainPwd>
+      <keychainPwd>C1rkl3!!</keychainPwd>
       <codeSigningIdentity></codeSigningIdentity>
     </au.com.rayh.XCodeBuilder>
   </builders>
