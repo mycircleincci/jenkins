@@ -69,9 +69,9 @@
       <cfBundleVersionValue></cfBundleVersionValue>
       <cfBundleShortVersionStringValue></cfBundleShortVersionStringValue>
       <buildIpa>true</buildIpa>
-      <unlockKeychain>false</unlockKeychain>
+      <unlockKeychain>true</unlockKeychain>
       <keychainPath>/Library/Keychains/System.keychain</keychainPath>
-      <keychainPwd></keychainPwd>
+      <keychainPwd>&quot;&quot;</keychainPwd>
       <codeSigningIdentity></codeSigningIdentity>
     </au.com.rayh.XCodeBuilder>
   </builders>
