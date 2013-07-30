@@ -61,7 +61,8 @@
   <concurrentBuild>false</concurrentBuild>
   <builders>
     <hudson.tasks.Shell>
-      <command>xcodebuild -workspace SmartRegister.xcworkspace -scheme SmartRegisterApplicationTests -sdk iphonesimulator -configuration Debug TEST_AFTER_BUILD=YES ONLY_ACTIVE_ARCH=NO RUN_UNIT_TEST_WITH_IOS_SIM=YES clean build</command>
+      <command>pod install
+xcodebuild -workspace SmartRegister.xcworkspace -scheme SmartRegisterApplicationTests -sdk iphonesimulator -configuration Debug TEST_AFTER_BUILD=YES ONLY_ACTIVE_ARCH=NO RUN_UNIT_TEST_WITH_IOS_SIM=YES clean build</command>
     </hudson.tasks.Shell>
   </builders>
   <publishers>
@@ -82,9 +83,6 @@
   <buildWrappers>
     <hudson.plugins.locksandlatches.LockWrapper plugin="locks-and-latches@0.6">
       <locks>
-        <hudson.plugins.locksandlatches.LockWrapper_-LockWaitConfig>
-          <name>iOS-sim</name>
-        </hudson.plugins.locksandlatches.LockWrapper_-LockWaitConfig>
         <hudson.plugins.locksandlatches.LockWrapper_-LockWaitConfig>
           <name>iOS-sim</name>
         </hudson.plugins.locksandlatches.LockWrapper_-LockWaitConfig>
