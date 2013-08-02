@@ -25,6 +25,23 @@
       <filterQueue>false</filterQueue>
       <properties class="hudson.model.View$PropertyList"/>
     </hudson.model.AllView>
+    <com.smartcodeltd.jenkinsci.plugins.buildmonitor.BuildMonitorView plugin="build-monitor-plugin@1.0+build.14">
+      <owner class="hudson" reference="../../.."/>
+      <name>MyCircle Smart Register</name>
+      <filterExecutors>false</filterExecutors>
+      <filterQueue>false</filterQueue>
+      <properties class="hudson.model.View$PropertyList"/>
+      <jobNames>
+        <comparator class="hudson.util.CaseInsensitiveComparator"/>
+        <string>SmartRegister application tests</string>
+        <string>SmartRegister logic tests</string>
+        <string>SmartRegister static analysis</string>
+        <string>SmartRegister TestFlight deployment</string>
+      </jobNames>
+      <jobFilters/>
+      <columns/>
+      <recurse>true</recurse>
+    </com.smartcodeltd.jenkinsci.plugins.buildmonitor.BuildMonitorView>
   </views>
   <primaryView>All</primaryView>
   <slaveAgentPort>0</slaveAgentPort>
