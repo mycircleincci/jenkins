@@ -66,8 +66,8 @@
       <xcodeProjectPath></xcodeProjectPath>
       <xcodeProjectFile></xcodeProjectFile>
       <xcodebuildArguments></xcodebuildArguments>
-      <xcodeSchema></xcodeSchema>
-      <xcodeWorkspaceFile></xcodeWorkspaceFile>
+      <xcodeSchema>SmartRegister</xcodeSchema>
+      <xcodeWorkspaceFile>SmartRegister</xcodeWorkspaceFile>
       <embeddedProfileFile></embeddedProfileFile>
       <cfBundleVersionValue></cfBundleVersionValue>
       <cfBundleShortVersionStringValue></cfBundleShortVersionStringValue>
