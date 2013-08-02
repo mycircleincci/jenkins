@@ -2,9 +2,9 @@
 <hudson.scm.CVSSCM_-DescriptorImpl plugin="cvs@2.9">
   <generation>1</generation>
   <compressionLevel>3</compressionLevel>
-  <privateKeyLocation>/Users/Shared/Jenkins/.ssh/id_rsa</privateKeyLocation>
-  <privateKeyPassword>PjtZiYdJV+esmWHX3NFgrg==</privateKeyPassword>
-  <knownHostsLocation>/Users/Shared/Jenkins/.ssh/known_hosts</knownHostsLocation>
+  <privateKeyLocation>/Users/ci/.ssh/id_rsa</privateKeyLocation>
+  <privateKeyPassword>c3SefuhUzsgIkC76Gs6Uvg==</privateKeyPassword>
+  <knownHostsLocation>/Users/ci/.ssh/known_hosts</knownHostsLocation>
   <authTokens/>
   <changelogEncoding>UTF-8</changelogEncoding>
 </hudson.scm.CVSSCM_-DescriptorImpl>
