@@ -46,7 +46,7 @@
     <scmName></scmName>
   </scm>
   <canRoam>true</canRoam>
-  <disabled>true</disabled>
+  <disabled>false</disabled>
   <blockBuildWhenDownstreamBuilding>false</blockBuildWhenDownstreamBuilding>
   <blockBuildWhenUpstreamBuilding>false</blockBuildWhenUpstreamBuilding>
   <triggers>
@@ -80,13 +80,5 @@ xcodebuild -workspace SmartRegister.xcworkspace -scheme SmartRegisterApplication
       </threshold>
     </hudson.tasks.BuildTrigger>
   </publishers>
-  <buildWrappers>
-    <hudson.plugins.locksandlatches.LockWrapper plugin="locks-and-latches@0.6">
-      <locks>
-        <hudson.plugins.locksandlatches.LockWrapper_-LockWaitConfig>
-          <name>iOS-sim</name>
-        </hudson.plugins.locksandlatches.LockWrapper_-LockWaitConfig>
-      </locks>
-    </hudson.plugins.locksandlatches.LockWrapper>
-  </buildWrappers>
+  <buildWrappers/>
 </project>
