@@ -65,7 +65,7 @@
       <configurationBuildDir>build/Release-iphoneos</configurationBuildDir>
       <xcodeProjectPath></xcodeProjectPath>
       <xcodeProjectFile></xcodeProjectFile>
-      <xcodebuildArguments>ARCHS=armv7</xcodebuildArguments>
+      <xcodebuildArguments></xcodebuildArguments>
       <xcodeSchema>SmartRegister</xcodeSchema>
       <xcodeWorkspaceFile>SmartRegister</xcodeWorkspaceFile>
       <embeddedProfileFile></embeddedProfileFile>
