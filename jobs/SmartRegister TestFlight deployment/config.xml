@@ -58,7 +58,7 @@
     <au.com.rayh.XCodeBuilder plugin="xcode-plugin@1.3.3">
       <cleanBeforeBuild>true</cleanBeforeBuild>
       <cleanTestReports>false</cleanTestReports>
-      <configuration>Release</configuration>
+      <configuration>Debug</configuration>
       <target>SmartRegister</target>
       <sdk></sdk>
       <symRoot></symRoot>
