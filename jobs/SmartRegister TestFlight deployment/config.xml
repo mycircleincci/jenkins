@@ -65,7 +65,7 @@
       <configurationBuildDir>build/Release-iphoneos</configurationBuildDir>
       <xcodeProjectPath></xcodeProjectPath>
       <xcodeProjectFile></xcodeProjectFile>
-      <xcodebuildArguments></xcodebuildArguments>
+      <xcodebuildArguments>OBJROOT=$(PWD)/build SYMROOT=$(PWD)/build</xcodebuildArguments>
       <xcodeSchema>SmartRegister</xcodeSchema>
       <xcodeWorkspaceFile>SmartRegister</xcodeWorkspaceFile>
       <embeddedProfileFile></embeddedProfileFile>
