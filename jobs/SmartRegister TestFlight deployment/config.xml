@@ -65,7 +65,7 @@
       <configurationBuildDir>build/Release-iphoneos</configurationBuildDir>
       <xcodeProjectPath></xcodeProjectPath>
       <xcodeProjectFile></xcodeProjectFile>
-      <xcodebuildArguments></xcodebuildArguments>
+      <xcodebuildArguments>ONLY_ACTIVE_ARCH=NO</xcodebuildArguments>
       <xcodeSchema>SmartRegister</xcodeSchema>
       <xcodeWorkspaceFile>SmartRegister</xcodeWorkspaceFile>
       <embeddedProfileFile></embeddedProfileFile>
