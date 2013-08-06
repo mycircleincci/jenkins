@@ -62,7 +62,7 @@
       <target>SmartRegister</target>
       <sdk></sdk>
       <symRoot></symRoot>
-      <configurationBuildDir></configurationBuildDir>
+      <configurationBuildDir>build/Products/Release-iphoneos</configurationBuildDir>
       <xcodeProjectPath></xcodeProjectPath>
       <xcodeProjectFile></xcodeProjectFile>
       <xcodebuildArguments></xcodebuildArguments>
@@ -70,7 +70,7 @@
       <xcodeWorkspaceFile>SmartRegister</xcodeWorkspaceFile>
       <embeddedProfileFile></embeddedProfileFile>
       <cfBundleVersionValue></cfBundleVersionValue>
-      <cfBundleShortVersionStringValue>build/Products/Release-iphoneos</cfBundleShortVersionStringValue>
+      <cfBundleShortVersionStringValue></cfBundleShortVersionStringValue>
       <buildIpa>true</buildIpa>
       <unlockKeychain>true</unlockKeychain>
       <keychainPath>${HOME}/Library/Keychains/login.keychain</keychainPath>
