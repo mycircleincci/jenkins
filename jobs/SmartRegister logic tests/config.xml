@@ -86,5 +86,14 @@ pod install</command>
       <testDataPublishers/>
     </hudson.tasks.junit.JUnitResultArchiver>
   </publishers>
-  <buildWrappers/>
+  <buildWrappers>
+    <hudson.plugins.build__timeout.BuildTimeoutWrapper plugin="build-timeout@1.11">
+      <timeoutMinutes>3</timeoutMinutes>
+      <failBuild>false</failBuild>
+      <writingDescription>false</writingDescription>
+      <timeoutPercentage>150</timeoutPercentage>
+      <timeoutType>elastic</timeoutType>
+      <timeoutMinutesElasticDefault>10</timeoutMinutesElasticDefault>
+    </hudson.plugins.build__timeout.BuildTimeoutWrapper>
+  </buildWrappers>
 </project>
