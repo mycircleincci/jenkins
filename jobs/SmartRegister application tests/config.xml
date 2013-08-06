@@ -88,7 +88,7 @@ pod install</command>
       <testDataPublishers/>
     </hudson.tasks.junit.JUnitResultArchiver>
     <hudson.tasks.BuildTrigger>
-      <childProjects>SmartRegister TestFlight deployment,SmartRegister static analysis</childProjects>
+      <childProjects>SmartRegister TestFlight deployment</childProjects>
       <threshold>
         <name>SUCCESS</name>
         <ordinal>0</ordinal>
