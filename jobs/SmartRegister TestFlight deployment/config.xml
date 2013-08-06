@@ -70,7 +70,7 @@
       <xcodeWorkspaceFile>SmartRegister</xcodeWorkspaceFile>
       <embeddedProfileFile></embeddedProfileFile>
       <cfBundleVersionValue></cfBundleVersionValue>
-      <cfBundleShortVersionStringValue></cfBundleShortVersionStringValue>
+      <cfBundleShortVersionStringValue>build/Products/Release-iphoneos</cfBundleShortVersionStringValue>
       <buildIpa>true</buildIpa>
       <unlockKeychain>true</unlockKeychain>
       <keychainPath>${HOME}/Library/Keychains/login.keychain</keychainPath>
