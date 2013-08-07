@@ -62,7 +62,7 @@
       <target>SmartRegister</target>
       <sdk></sdk>
       <symRoot></symRoot>
-      <configurationBuildDir>${WORKSPACE}/build/Products/Release-iphoneos</configurationBuildDir>
+      <configurationBuildDir>build/Release-iphoneos</configurationBuildDir>
       <xcodeProjectPath></xcodeProjectPath>
       <xcodeProjectFile></xcodeProjectFile>
       <xcodebuildArguments></xcodebuildArguments>
