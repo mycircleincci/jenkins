@@ -56,7 +56,6 @@
       <command># destroys any local storage from previous runs which will break tests if the schema changes
 rm -rf ~/Library/Application\ Support/iPhone\ Simulator/
 
-rm Podfile.lock
 pod install</command>
     </hudson.tasks.Shell>
     <au.com.rayh.XCodeBuilder plugin="xcode-plugin@1.3.3">
