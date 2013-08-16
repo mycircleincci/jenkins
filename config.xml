@@ -43,6 +43,7 @@
         <string>SmartRegister logic tests</string>
         <string>SmartRegister static analysis</string>
         <string>SmartRegister TestFlight deployment</string>
+        <string>SmartRegister web unit tests</string>
       </jobNames>
       <jobFilters/>
       <columns/>
