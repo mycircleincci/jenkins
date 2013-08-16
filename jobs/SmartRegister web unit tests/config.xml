@@ -57,7 +57,8 @@
   <concurrentBuild>false</concurrentBuild>
   <builders>
     <hudson.tasks.Shell>
-      <command>npm install
+      <command>export PATH=$PATH:/usr/local/bin
+npm install
 bower install
 grunt test</command>
     </hudson.tasks.Shell>
