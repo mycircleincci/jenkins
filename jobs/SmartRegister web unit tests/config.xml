@@ -58,7 +58,9 @@
   <builders>
     <hudson.tasks.Shell>
       <command>export PATH=$PATH:/usr/local/bin
+npm prune
 npm install
+bower prune
 bower install
 grunt test</command>
     </hudson.tasks.Shell>
