@@ -65,7 +65,7 @@
       <configurationBuildDir>${WORKSPACE}/build/Products/Release-iphoneos</configurationBuildDir>
       <xcodeProjectPath></xcodeProjectPath>
       <xcodeProjectFile></xcodeProjectFile>
-      <xcodebuildArguments>PROVISIONING_PROFILE=iPhone Distribution: Andrew Hawkins</xcodebuildArguments>
+      <xcodebuildArguments>PROVISIONING_PROFILE=&quot;iPhone Distribution: Andrew Hawkins&quot;</xcodebuildArguments>
       <xcodeSchema>SmartRegister</xcodeSchema>
       <xcodeWorkspaceFile>SmartRegister</xcodeWorkspaceFile>
       <embeddedProfileFile></embeddedProfileFile>
