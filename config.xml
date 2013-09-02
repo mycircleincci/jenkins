@@ -39,6 +39,7 @@
       <properties class="hudson.model.View$PropertyList"/>
       <jobNames>
         <comparator class="hudson.util.CaseInsensitiveComparator"/>
+        <string>myCircle Admin</string>
         <string>SmartRegister application tests</string>
         <string>SmartRegister logic tests</string>
         <string>SmartRegister static analysis</string>
