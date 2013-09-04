@@ -74,7 +74,7 @@ grunt test</command>
     <org.jenkinsci.plugins.postbuildscript.PostBuildScript plugin="postbuildscript@0.14">
       <buildSteps>
         <hudson.tasks.Shell>
-          <command>echo env</command>
+          <command>env</command>
         </hudson.tasks.Shell>
       </buildSteps>
       <scriptOnlyIfSuccess>false</scriptOnlyIfSuccess>
