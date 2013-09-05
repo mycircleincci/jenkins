@@ -72,8 +72,8 @@ grunt test</command>
       <testDataPublishers/>
     </hudson.tasks.junit.JUnitResultArchiver>
     <org.jvnet.hudson.plugins.groovypostbuild.GroovyPostbuildRecorder plugin="groovy-postbuild@1.8">
-      <groovyScript>manager.listener.logger.println &quot;O HAI: ${manager.build.result}&quot;
-// curl -v -u YsBFMjZnbfXnfsiuL2P7fLdMFjzcXNgfkvvxAJwXETxPZz1pNk:unused -d &quot;{\&quot;timestamp\&quot;:`date +%s`,\&quot;value\&quot;:1}&quot; https://push.ducksboard.com/v/221213</groovyScript>
+      <groovyScript>manager.listener.logger.println &apos;curl -v -u $DUCKSBOARD_API_KEY:unused -d &quot;{\&quot;timestamp\&quot;:`date +%s`,\&quot;value\&quot;:1}&quot; https://push.ducksboard.com/v/221213&apos;
+</groovyScript>
       <behavior>0</behavior>
     </org.jvnet.hudson.plugins.groovypostbuild.GroovyPostbuildRecorder>
   </publishers>
