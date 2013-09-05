@@ -31,7 +31,7 @@
       <filterQueue>false</filterQueue>
       <properties class="hudson.model.View$PropertyList"/>
     </hudson.model.AllView>
-    <com.smartcodeltd.jenkinsci.plugins.buildmonitor.BuildMonitorView plugin="build-monitor-plugin@1.0+build.14">
+    <com.smartcodeltd.jenkinsci.plugins.buildmonitor.BuildMonitorView plugin="build-monitor-plugin@1.0+build.33">
       <owner class="hudson" reference="../../.."/>
       <name>MyCircle Smart Register</name>
       <filterExecutors>false</filterExecutors>
@@ -59,5 +59,19 @@
     <PROXY__HEADER>X-Forwarded-For</PROXY__HEADER>
   </crumbIssuer>
   <nodeProperties/>
-  <globalNodeProperties/>
+  <globalNodeProperties>
+    <hudson.slaves.EnvironmentVariablesNodeProperty>
+      <envVars serialization="custom">
+        <unserializable-parents/>
+        <tree-map>
+          <default>
+            <comparator class="hudson.util.CaseInsensitiveComparator"/>
+          </default>
+          <int>1</int>
+          <string>DUCKSBOARD_API_KEY</string>
+          <string>YsBFMjZnbfXnfsiuL2P7fLdMFjzcXNgfkvvxAJwXETxPZz1pNk</string>
+        </tree-map>
+      </envVars>
+    </hudson.slaves.EnvironmentVariablesNodeProperty>
+  </globalNodeProperties>
 </hudson>
