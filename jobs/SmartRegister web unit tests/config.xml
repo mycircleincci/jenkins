@@ -79,8 +79,8 @@ case &quot;FAILURE&quot;:
 case &quot;ABORTED&quot;: status = 1; break
 default: status = 2
 }
-manager.listener.logger.println &quot;curl -v -u \$DUCKSBOARD_API_KEY:unused -d \&quot;{\\\&quot;timestamp\\\&quot;:`date +%s`,\\\&quot;value\\\&quot;:$status}\&quot; https://push.ducksboard.com/v/221213&quot;
-</groovyScript>
+def command = &quot;curl -v -u \$DUCKSBOARD_API_KEY:unused -d \&quot;{\\\&quot;timestamp\\\&quot;:`date +%s`,\\\&quot;value\\\&quot;:$status}\&quot; https://push.ducksboard.com/v/221213&quot;
+manager.listener.logger.println command.execute().text</groovyScript>
       <behavior>0</behavior>
     </org.jvnet.hudson.plugins.groovypostbuild.GroovyPostbuildRecorder>
   </publishers>
