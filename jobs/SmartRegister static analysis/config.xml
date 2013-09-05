@@ -94,9 +94,14 @@ DUCKSBOARD_STATUS=1</properties>
           <triggerWithNoParameters>false</triggerWithNoParameters>
         </hudson.plugins.parameterizedtrigger.BuildTriggerConfig>
         <hudson.plugins.parameterizedtrigger.BuildTriggerConfig>
-          <configs class="empty-list"/>
+          <configs>
+            <hudson.plugins.parameterizedtrigger.PredefinedBuildParameters>
+              <properties>1DUCKSBOARD_ID=221212
+DUCKSBOARD_STATUS=2</properties>
+            </hudson.plugins.parameterizedtrigger.PredefinedBuildParameters>
+          </configs>
           <projects>Notify Ducksboard, </projects>
-          <condition>SUCCESS</condition>
+          <condition>UNSTABLE</condition>
           <triggerWithNoParameters>false</triggerWithNoParameters>
         </hudson.plugins.parameterizedtrigger.BuildTriggerConfig>
       </configs>
