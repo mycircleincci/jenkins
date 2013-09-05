@@ -74,7 +74,7 @@ grunt test</command>
     <org.jenkinsci.plugins.postbuildscript.PostBuildScript plugin="postbuildscript@0.14">
       <buildSteps>
         <hudson.tasks.Shell>
-          <command>curl -v -u YsBFMjZnbfXnfsiuL2P7fLdMFjzcXNgfkvvxAJwXETxPZz1pNk:unused -d &quot;{\&quot;timestamp\&quot;:`date +%s`,\&quot;value\&quot;:0}&quot; https://push.ducksboard.com/v/221213</command>
+          <command>curl -v -u YsBFMjZnbfXnfsiuL2P7fLdMFjzcXNgfkvvxAJwXETxPZz1pNk:unused -d &quot;{\&quot;timestamp\&quot;:`date +%s`,\&quot;value\&quot;:1}&quot; https://push.ducksboard.com/v/221213</command>
         </hudson.tasks.Shell>
       </buildSteps>
       <scriptOnlyIfSuccess>false</scriptOnlyIfSuccess>
