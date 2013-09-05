@@ -74,7 +74,10 @@ grunt test</command>
     <org.jenkinsci.plugins.postbuildscript.PostBuildScript plugin="postbuildscript@0.14">
       <buildSteps>
         <hudson.tasks.Shell>
-          <command>env</command>
+          <command>echo curl -v -u YsBFMjZnbfXnfsiuL2P7fLdMFjzcXNgfkvvxAJwXETxPZz1pNk:unused -d &apos;{
+      &quot;timestamp&quot;: `date +%s`,
+      &quot;value&quot;: 0}&apos; \
+  https://push.ducksboard.com/v/221213</command>
         </hudson.tasks.Shell>
       </buildSteps>
       <scriptOnlyIfSuccess>false</scriptOnlyIfSuccess>
