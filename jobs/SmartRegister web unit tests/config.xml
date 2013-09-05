@@ -71,18 +71,6 @@ grunt test</command>
       <keepLongStdio>false</keepLongStdio>
       <testDataPublishers/>
     </hudson.tasks.junit.JUnitResultArchiver>
-    <org.jvnet.hudson.plugins.groovypostbuild.GroovyPostbuildRecorder plugin="groovy-postbuild@1.8">
-      <groovyScript>def status
-switch (manager.build.result.toString()) {
-case &quot;SUCCESS&quot;: status = 0; break
-case &quot;FAILURE&quot;:
-case &quot;ABORTED&quot;: status = 1; break
-default: status = 2
-}
-def command = &quot;curl -u \$DUCKSBOARD_API_KEY:unused -d \&quot;{\\\&quot;timestamp\\\&quot;:`date +%s`,\\\&quot;value\\\&quot;:$status}\&quot; https://push.ducksboard.com/v/221213&quot;
-manager.listener.logger.println command.execute().text</groovyScript>
-      <behavior>0</behavior>
-    </org.jvnet.hudson.plugins.groovypostbuild.GroovyPostbuildRecorder>
     <hudson.plugins.parameterizedtrigger.BuildTrigger plugin="parameterized-trigger@2.20">
       <configs>
         <hudson.plugins.parameterizedtrigger.BuildTriggerConfig>
