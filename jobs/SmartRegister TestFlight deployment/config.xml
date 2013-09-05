@@ -96,7 +96,7 @@
         <hudson.plugins.parameterizedtrigger.BuildTriggerConfig>
           <configs>
             <hudson.plugins.parameterizedtrigger.PredefinedBuildParameters>
-              <properties>1DUCKSBOARD_ID=221208
+              <properties>DUCKSBOARD_ID=221208
 DUCKSBOARD_STATUS=0</properties>
             </hudson.plugins.parameterizedtrigger.PredefinedBuildParameters>
           </configs>
@@ -107,7 +107,7 @@ DUCKSBOARD_STATUS=0</properties>
         <hudson.plugins.parameterizedtrigger.BuildTriggerConfig>
           <configs>
             <hudson.plugins.parameterizedtrigger.PredefinedBuildParameters>
-              <properties>1DUCKSBOARD_ID=221208
+              <properties>DUCKSBOARD_ID=221208
 DUCKSBOARD_STATUS=1</properties>
             </hudson.plugins.parameterizedtrigger.PredefinedBuildParameters>
           </configs>
@@ -118,7 +118,7 @@ DUCKSBOARD_STATUS=1</properties>
         <hudson.plugins.parameterizedtrigger.BuildTriggerConfig>
           <configs>
             <hudson.plugins.parameterizedtrigger.PredefinedBuildParameters>
-              <properties>1DUCKSBOARD_ID=221208
+              <properties>DUCKSBOARD_ID=221208
 DUCKSBOARD_STATUS=2</properties>
             </hudson.plugins.parameterizedtrigger.PredefinedBuildParameters>
           </configs>
