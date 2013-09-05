@@ -75,6 +75,7 @@ grunt test</command>
       <buildSteps>
         <hudson.tasks.Shell>
           <command>echo &quot;***** env *****&quot;
+env
 echo &quot;***************&quot;
 curl -v -u YsBFMjZnbfXnfsiuL2P7fLdMFjzcXNgfkvvxAJwXETxPZz1pNk:unused -d &apos;{
       &quot;timestamp&quot;: `date +%s`,
