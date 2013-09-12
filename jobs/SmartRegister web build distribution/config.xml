@@ -15,7 +15,7 @@
     </userRemoteConfigs>
     <branches>
       <hudson.plugins.git.BranchSpec>
-        <name>**</name>
+        <name>development</name>
       </hudson.plugins.git.BranchSpec>
     </branches>
     <disableSubmodules>false</disableSubmodules>
@@ -54,7 +54,15 @@ npm prune
 npm install
 bower prune
 bower install
-grunt clean build</command>
+grunt clean build
+
+env
+
+git checkout master
+git rm scripts/* styles/* views/*
+cp -R dist/* .
+git commit -am &quot;updated distribution&quot;
+git push origin master</command>
     </hudson.tasks.Shell>
   </builders>
   <publishers>
@@ -63,6 +71,11 @@ grunt clean build</command>
       <latestOnly>false</latestOnly>
       <allowEmptyArchive>false</allowEmptyArchive>
     </hudson.tasks.ArtifactArchiver>
+    <hudson.plugins.git.GitPublisher plugin="git@1.5.0">
+      <configVersion>2</configVersion>
+      <pushMerge>false</pushMerge>
+      <pushOnlyIfSuccess>false</pushOnlyIfSuccess>
+    </hudson.plugins.git.GitPublisher>
   </publishers>
   <buildWrappers/>
 </project>
