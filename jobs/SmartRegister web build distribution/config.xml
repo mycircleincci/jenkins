@@ -59,7 +59,7 @@ grunt clean build
 env
 
 git checkout master
-git rm scripts/* styles/* views/*
+git rm --ignore-unmatch scripts/* styles/* views/*
 cp -R dist/* .
 git add -A
 git commit -m &quot;updated distribution&quot;
