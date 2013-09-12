@@ -62,7 +62,7 @@ git checkout master
 git rm --ignore-unmatch scripts/* styles/* views/*
 cp -R dist/* .
 git add -A
-git commit -m &quot;updated distribution&quot;
+git commit -m &quot;`git log -1 $GIT_COMMIT`&quot;
 git push origin master</command>
     </hudson.tasks.Shell>
   </builders>
