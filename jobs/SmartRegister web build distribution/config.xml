@@ -54,29 +54,10 @@ npm prune
 npm install
 bower prune
 bower install
-grunt clean build
-
-env
-
-git checkout master
-git rm --ignore-unmatch scripts/* styles/* views/*
-cp -R dist/* .
-git add -A
-git commit -m &quot;`git log -1 $GIT_COMMIT`&quot;
-git push origin master</command>
+grunt release
+</command>
     </hudson.tasks.Shell>
   </builders>
-  <publishers>
-    <hudson.tasks.ArtifactArchiver>
-      <artifacts>dist/**/*</artifacts>
-      <latestOnly>false</latestOnly>
-      <allowEmptyArchive>false</allowEmptyArchive>
-    </hudson.tasks.ArtifactArchiver>
-    <hudson.plugins.git.GitPublisher plugin="git@1.5.0">
-      <configVersion>2</configVersion>
-      <pushMerge>false</pushMerge>
-      <pushOnlyIfSuccess>false</pushOnlyIfSuccess>
-    </hudson.plugins.git.GitPublisher>
-  </publishers>
+  <publishers/>
   <buildWrappers/>
 </project>
